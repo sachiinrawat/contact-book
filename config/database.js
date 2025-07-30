@@ -5,9 +5,6 @@ dotenv.config();
 // Database Connection
 export const connectDB = () => {
   mongoose
-    .connect(process.env.MONGO_URL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    })
+    .connect(process.env.MONGO_URL)
     .then(() => console.log("Database Connected."));
 };
