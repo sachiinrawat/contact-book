@@ -16,7 +16,7 @@ A simple web-based Contact Book application to store and manage your personal or
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, Tailwind CSS (or Bootstrap)
+- **Frontend:**HTML (Bootstrap)
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Version Control:** Git & GitHub
